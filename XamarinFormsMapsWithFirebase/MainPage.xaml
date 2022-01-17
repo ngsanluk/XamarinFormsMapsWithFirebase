@@ -5,6 +5,23 @@
 
              x:Class="XamarinFormsMapsWithFirebase.MainPage">
 
-    <maps:Map x:Name="map" />
+    <!--<maps:Map x:Name="map" />-->
+    <maps:Map x:Name="map">
+        <x:Arguments>
+            <maps:MapSpan>
+                <x:Arguments>
+                    <maps:Position>
+                        <x:Arguments>
+                            <x:Double>22.279800</x:Double>
+                            <x:Double>114.183937</x:Double>
+                        </x:Arguments>
+                    </maps:Position>
+                    <x:Double>0.2</x:Double>
+                    <x:Double>0.2</x:Double>
+                </x:Arguments>
+            </maps:MapSpan>
+        </x:Arguments>
+    </maps:Map>
+
 
 </ContentPage>
