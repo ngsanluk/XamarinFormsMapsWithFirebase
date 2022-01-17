@@ -49,7 +49,7 @@ namespace XamarinFormsMapsWithFirebase
                 Pin pin = new Pin
                 {
                     Label = shop.ShopName,
-                    Address = shop.District + shop.Description,
+                    Address = shop.District + " - " + shop.Description,
                     Type = PinType.Place,
                     Position = new Position(Convert.ToDouble(shop.Latitude), Convert.ToDouble(shop.Longitude))
                 };
